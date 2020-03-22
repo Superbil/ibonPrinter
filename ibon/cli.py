@@ -4,7 +4,7 @@ import argparse
 import sys
 import os
 
-from ibonPrinter import IBON
+from ibon.printer import Printer
 
 
 def main():
@@ -40,7 +40,7 @@ def main():
 
     # TODO: check file size < 10M
 
-    printer = IBON()
+    printer = Printer()
     r = printer.upload(
         args.file,
         user=args.name,

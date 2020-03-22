@@ -3,7 +3,7 @@ import os
 import requests
 
 
-class IBON(object):
+class Printer(object):
 
     def __init__(self):
         self.__iboneHostUrl = 'https://printadmin.ibon.com.tw/IbonUpload'
