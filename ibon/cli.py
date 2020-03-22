@@ -9,7 +9,7 @@ from ibon.printer import Printer
 
 def main():
     parser = argparse.ArgumentParser(
-        prog='ibonprinter-cli',
+        prog='ibonprinter',
         description='7-11 iBon printer uploader.'
     )
     parser.add_argument(
